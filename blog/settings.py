@@ -24,7 +24,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'post/templates')
 SECRET_KEY = '=!t!0v$lu)d_+r+k1fa%8*z4+*^!_j4544plclz(5cv0#(kap_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
