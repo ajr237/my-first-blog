@@ -10,7 +10,7 @@ def test(request):
     posts = models.POST.objects.all()
 
     context = {
-        'post': post,
+        'posts': posts,
     }
 
     return render(request, 'post/test.html', context)
